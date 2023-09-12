@@ -20,14 +20,14 @@
 
 <view class="event_success">
 
-    <image src="../../static/event/ic_event_success.webp" style="width: 120rpx;height: 120rpx;"></image>
+    <image src="../../static/event/ic_event_success.svg" style="width: 120rpx;height: 120rpx;"></image>
 
     <text class="event_success_tip">报警成功，马上联系您！</text>
     <text class="event_tip">车靠边  人撤离  放警示</text>
 
-    <view class="tip_text"><image src='../../static/event/ic_tip.webp' style="width: 28rpx;height: 28rpx;"></image><text style="margin-left: 6rpx;">请保持手机畅通，等待来电</text></view>
+    <view class="tip_text"><image src='../../static/event/ic_tip.svg' style="width: 28rpx;height: 28rpx;"></image><text style="margin-left: 6rpx;">请保持手机畅通，等待来电</text></view>
 
-    <view class="tip_text1"><image src='../../static/event/ic_tip.webp' style="width: 28rpx;height: 28rpx;"></image><text style="margin-left: 6rpx;">可关闭页面，请勿重复报警</text></view>
+    <view class="tip_text1"><image src='../../static/event/ic_tip.svg' style="width: 28rpx;height: 28rpx;"></image><text style="margin-left: 6rpx;">可关闭页面，请勿重复报警</text></view>
 
 
     
@@ -36,9 +36,9 @@
                 <view class="again_upload" bind:tap="again">重新上报</view>
     </view>
 
-    <view style="color: #666666;margin-top: 140rpx;font-size: 28rpx;">授权手机号：<text style="color: #333333;">18829390099</text></view>
+    <view style="color: #666666;margin-top: 140rpx;font-size: 28rpx;">授权手机号：<text style="color: #333333;">{{telNumber}}</text></view>
 
-    <view style="color: #666666;margin-top: 24rpx;font-size: 28rpx;">事故地点：<text style="color: #333333;">长沙绕城高速西南段上行K168+820</text></view>
+    <view style="color: #666666;margin-top: 24rpx;font-size: 28rpx;">事故地点：<text style="color: #333333;">{{eventInfo.address}}{{eventInfo.direction}}{{eventInfo.pileNumber}}</text></view>
 
     <view class="tel_container">
     <image src='../../static/event/ic_rescue_tel.svg' style="flex:1;height: 220rpx;width: 320rpx;margin: 20rpx;" bind:tap="freeTell"></image>

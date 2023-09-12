@@ -6,6 +6,15 @@ Page({
      */
     data: {
         has_history : false,
+        event:[{
+            "eventTime": "2023-09-12 06:00:00",
+            "eventAddress": "长沙绕城",
+            "eventDescribe": "车胎爆了,快来救车"
+        }, {
+            "eventTime": "2023-09-12 06:00:00",
+            "eventAddress": "长沙绕城",
+            "eventDescribe": "车胎爆了,快来救车"
+        }]
     },
 
     /**

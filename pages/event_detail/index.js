@@ -10,7 +10,7 @@ Page({
         event : "请选择",
         type : 0,
         content:"",
-        source:['../../static/event/add_photo.webp'],
+        source:['../../static/event/add_photo.svg'],
         isPhoto:false,
         telNumber:"",
         eventInfo:{},
@@ -37,7 +37,7 @@ Page({
         */
     uploadimg:function(e){
         
-        if (e.currentTarget.dataset.value != "../../static/event/add_photo.webp") {
+        if (e.currentTarget.dataset.value != "../../static/event/add_photo.svg") {
             return
         }
 
@@ -51,10 +51,10 @@ Page({
 
             switch (res.tempFilePaths.length) {
                 case 1:
-                    res.tempFilePaths[1] = '../../static/event/add_photo.webp'
+                    res.tempFilePaths[1] = '../../static/event/add_photo.svg'
                     break;
                 case 2:
-                    res.tempFilePaths[2] = '../../static/event/add_photo.webp'
+                    res.tempFilePaths[2] = '../../static/event/add_photo.svg'
                     break;
             
                 default:
@@ -85,11 +85,11 @@ Page({
         },
 
     submit(){
-        // wx.navigateTo({
-        //     url: '../event_success/index',
-        //   })
+        wx.navigateTo({
+            url: '../event_success/index',
+          })
 
-        
+
 
     },
 

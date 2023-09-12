@@ -9,9 +9,9 @@
     </view>
 
     <view wx:else >
-        <view style="display: flex;width: 100%;height: 100%;flex-direction: column;align-items: center;"  wx:for="2">
+        <view style="display: flex;width: 100%;height: 100%;flex-direction: column;align-items: center;">
         
-            <view class="history_item">
+            <view class="history_item"   wx:for="{{event}}">
     
                 <text wx:if="{{item.alarmStatus == '1000'}}" class="tag tag-red">待处理</text>
                 <text wx:elif="{{item.alarmStatus == '1001'}}" class="tag tag-yellow">已恢复</text>

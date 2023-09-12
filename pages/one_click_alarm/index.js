@@ -81,8 +81,8 @@ Page({
         BMap.regeocoding({
             fail: fail,
             success: success,
-            iconPath: '../../img/marker_red.png',
-            iconTapPath: '../../img/marker_red.png'
+            iconPath: '../../static/event/marker_red.png',
+            iconTapPath: '../../static/event/marker_red.png'
         });
 
 

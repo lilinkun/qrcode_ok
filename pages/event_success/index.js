@@ -5,27 +5,25 @@ Page({
      * 页面的初始数据
      */
     data: {
+        telNumber : "",
+        eventInfo: {}
     },
 
     /**
      * 生命周期函数--监听页面加载
      */
     onLoad(options) {
-
+        this.setData({
+            telNumber : wx.getStorageSync('phone'),
+            eventInfo : wx.getStorageSync('qrcode_info')
+        })
     },
 
-    /**
-     * 生命周期函数--监听页面初次渲染完成
-     */
-    onReady() {
-
-    },
-
-    /**
-     * 生命周期函数--监听页面显示
-     */
-    onShow() {
-
+    backtab(){
+        wx.navigateBack({
+            delta:2
+        }
+        )
     },
 
     freeTell:function(){
@@ -45,16 +43,6 @@ Page({
             delta:1
         }
         )
-    },
-
-    
-    /**
-     * 生命周期函数--监听页面卸载
-     */
-    onUnload() {
-        wx.navigateBack({
-            delta:2
-        })
     },
 
 })
