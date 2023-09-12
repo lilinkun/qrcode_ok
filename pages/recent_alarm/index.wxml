@@ -1,0 +1,38 @@
+<!--pages/recent_alarm/index.wxml-->
+<view style="width: 100%;height: 100vh;justify-content: center;">
+
+    <view style="width: 100%;height: 100%;display: flex;justify-content: center;align-items: center;flex-direction: column;" wx:if="{{has_history}}">
+    
+    <image src="../../static/event/no_alarm.svg" style="width: 400rpx;height: 310rpx;"></image>
+    <text style="margin-top: 40rpx;color: #666666;font-size: 28rpx;">暂无历史报警记录</text>
+    
+    </view>
+
+    <view wx:else >
+        <view style="display: flex;width: 100%;height: 100%;flex-direction: column;align-items: center;"  wx:for="2">
+        
+            <view class="history_item">
+    
+                <text wx:if="{{item.alarmStatus == '1000'}}" class="tag tag-red">待处理</text>
+                <text wx:elif="{{item.alarmStatus == '1001'}}" class="tag tag-yellow">已恢复</text>
+                <text wx:else class="tag tag-green">已处理</text>
+                <text class="title" style="text-overflow: ellipsis;" >{{ item.alarmContent }}</text>
+                <view style="border-bottom:1px solid rgb(233, 233, 233);">
+                    <view class="content" style="margin-top: 10px;">
+                        <van-icon name="printer" style="color: #999999;"/><text class="content-item">报警时间：</text><text>{{ item.eventTime  }}</text>
+                    </view>
+                    <view class="content">
+                        <van-icon name="bell"  style="color: #999999;"/><text class="content-item">报警地址：</text><van-tag type="primary">{{item.eventAddress}}</van-tag>
+                    </view>
+                    <view class="content">
+                        <van-icon name="underway" style="color: #999999;"/><text class="content-item"><van-icon name="close" />事件描述：</text><text>{{ item.eventDescribe }}</text>
+                    </view>
+                </view>
+                        </view>
+                    </view>
+        
+
+    
+    </view>
+
+</view>

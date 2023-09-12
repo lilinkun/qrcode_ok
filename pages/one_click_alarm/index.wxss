@@ -1,0 +1,55 @@
+
+
+.getTel{
+    position: absolute;
+    width: 100%;
+    bottom: 120rpx;
+}
+
+.alarm_bottom{
+    background: #FFFFFF;
+    box-shadow: 0rpx -10rpx 20rpx 0rpx rgba(223,230,242,0.8);
+    border-radius: 40rpx 40rpx 0rpx 0rpx;
+    height: 346rpx;
+    width: 100%;
+    position: absolute;
+    bottom: 0rpx;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tel_view{
+    font-size: 36rpx;
+    font-family: PingFangSC-Medium, PingFang SC;
+    font-weight: 500;
+    color: #333333;
+    line-height: 50rpx;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.again_upload{
+    width: 90%;
+    margin-left: 32rpx;
+    display: flex;
+    justify-content: center;
+    margin-top: 30rpx;
+    margin-bottom: 30rpx;
+}
+
+.alarm_record{
+    font-size: 28rpx;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: #666666;
+    line-height: 40rpx;
+}
+
+
+.map {
+    height: 100%;
+    width: 100%;
+}

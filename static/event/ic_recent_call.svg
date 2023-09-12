@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="330px" height="220px" viewBox="0 0 330 220" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>最近报警</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="330" height="220" rx="20"></rect>
+        <linearGradient x1="9.2807706e-15%" y1="50%" x2="46.7694437%" y2="94.3060043%" id="linearGradient-3">
+            <stop stop-color="#D6EDF8" offset="0%"></stop>
+            <stop stop-color="#E4F2F9" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="26.5695226%" y1="8.13307665%" x2="34.1859583%" y2="100%" id="linearGradient-4">
+            <stop stop-color="#77CCDF" offset="0%"></stop>
+            <stop stop-color="#77E2F3" offset="100%"></stop>
+        </linearGradient>
+        <filter x="0.0%" y="0.0%" width="100.0%" height="100.0%" filterUnits="objectBoundingBox" id="filter-5">
+            <feGaussianBlur stdDeviation="0" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <linearGradient x1="26.5695226%" y1="8.13307665%" x2="34.1859583%" y2="100%" id="linearGradient-6">
+            <stop stop-color="#8CD7E8" offset="0%"></stop>
+            <stop stop-color="#BEF5FF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="55.7491062%" id="linearGradient-7">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#66D7ED" offset="100%"></stop>
+        </linearGradient>
+        <filter x="-0.4%" y="-0.4%" width="100.8%" height="100.7%" filterUnits="objectBoundingBox" id="filter-8">
+            <feGaussianBlur stdDeviation="0" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-9">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#E4F6FF" offset="100%"></stop>
+        </linearGradient>
+        <path d="M290.851803,188.16875 C290.307564,187.625 289.606936,187.2375 288.824984,187.08125 C288.355813,186.9875 288.018009,186.5875 288.018009,186.1125 L288.018009,163.1375 C288.018009,153.2 279.879455,144.9625 269.933028,144.999872 C260.017879,145.0375 251.98567,153.08125 251.98567,163 L251.98567,186.1125 C251.98567,186.5875 251.647867,186.9875 251.178696,187.08125 C249.352056,187.45625 247.982076,189.06875 247.982076,191 L292.021603,191 C292.021603,189.89375 291.571199,188.89375 290.851803,188.16875 Z M273.461194,156 L272.247605,166.83125 L277.008128,166.83125 L266.54874,182 L267.76233,171.16875 L262.995551,171.16875 L273.461194,156 Z M270.00184,140 C268.894596,140 268.000043,139.10625 268.000043,138 L268.000043,129 C268.000043,127.89375 268.894596,127 270.00184,127 C271.109083,127 272.003636,127.89375 272.003636,129 L272.003636,138 C272.003636,139.10625 271.109083,140 270.00184,140 Z M255.488814,145.50625 C254.531705,146.05625 253.305604,145.73125 252.75511,144.775 L248.251068,136.98125 C247.700574,136.025 248.025866,134.8 248.982975,134.25 C249.940084,133.7 251.166184,134.025 251.716678,134.98125 L256.220721,142.775 C256.771215,143.73125 256.445923,144.95 255.488814,145.50625 Z M284.514865,145.50625 C285.471974,146.05625 286.698075,145.73125 287.248569,144.775 L291.752611,136.98125 C292.303105,136.025 291.977813,134.8 291.020704,134.25 C290.063595,133.7 288.837495,134.025 288.287001,134.98125 L283.782958,142.775 C283.232464,143.73125 283.557756,144.95 284.514865,145.50625 Z M250.640713,154.80625 C250.352954,155.875 249.258222,156.50625 248.188512,156.21875 L239.486952,153.89375 C238.417242,153.60625 237.785425,152.5125 238.066927,151.44375 C238.354686,150.375 239.449418,149.74375 240.519128,150.03125 L249.220688,152.3625 C250.290398,152.64375 250.922215,153.7375 250.640713,154.80625 L250.640713,154.80625 Z M289.362967,154.80625 C289.650725,155.875 290.745457,156.50625 291.815168,156.21875 L300.516727,153.8875 C301.586437,153.6 302.218254,152.50625 301.930496,151.4375 C301.642738,150.36875 300.548005,149.7375 299.478295,150.025 L290.776736,152.35625 C289.713281,152.64375 289.081464,153.7375 289.362967,154.80625 Z" id="path-10"></path>
+        <filter x="-49.2%" y="-49.2%" width="198.4%" height="198.4%" filterUnits="objectBoundingBox" id="filter-11">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="10.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.250391518   0 0 0 0 0.805859503   0 0 0 0 0.8984375  0 0 0 0.8 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-12" x="32" y="126" width="196" height="52" rx="10"></rect>
+        <filter x="-5.1%" y="-15.4%" width="110.2%" height="138.5%" filterUnits="objectBoundingBox" id="filter-13">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.783175358   0 0 0 0 0.950463788   0 0 0 0 0.98658288  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="一键报警-5报警成功页" transform="translate(-388.000000, -1372.000000)">
+            <g id="最近报警" transform="translate(388.000000, 1372.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="矩形" fill="#E4F2F9" xlink:href="#path-1"></use>
+                <circle id="椭圆形" fill="url(#linearGradient-3)" mask="url(#mask-2)" cx="280" cy="30" r="140"></circle>
+                <path d="M351.121692,96.4172146 C339.370867,95.4123839 314.751835,91.6327454 294.336723,77.4268359 C291.576315,75.524388 287.938265,75.524388 285.177857,77.4268359 C277.942353,82.4509895 260.980133,91.5313405 228.521113,95.808785 C224.914521,96.1708354 222.128736,99.1598921 222,102.805725 L222,160.514352 C222,197.536372 263.214897,225.892879 288.54832,231 C314.779312,227.174268 358,200.891953 358,161.113563 L358,103.478685 C357.876764,99.6842579 354.888346,96.6162609 351.121692,96.4172146 Z" id="形状" fill="url(#linearGradient-4)" fill-rule="nonzero" filter="url(#filter-5)" mask="url(#mask-2)"></path>
+                <path d="M331.121692,112.417215 C319.370867,111.412384 294.751835,107.632745 274.336723,93.4268359 C271.576315,91.524388 267.938265,91.524388 265.177857,93.4268359 C257.942353,98.4509895 240.980133,107.53134 208.521113,111.808785 C204.914521,112.170835 202.128736,115.159892 202,118.805725 L202,176.514352 C202,213.536372 243.214897,241.892879 268.54832,247 C294.779312,243.174268 338,216.891953 338,177.113563 L338,119.478685 C337.876764,115.684258 334.888346,112.616261 331.121692,112.417215 Z" id="形状" stroke="url(#linearGradient-7)" stroke-width="1.13333333" fill-opacity="0.6" fill="url(#linearGradient-6)" fill-rule="nonzero" filter="url(#filter-8)" mask="url(#mask-2)"></path>
+                <g id="形状" fill-rule="nonzero" mask="url(#mask-2)">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-11)" xlink:href="#path-10"></use>
+                    <use fill="url(#linearGradient-9)" xlink:href="#path-10"></use>
+                </g>
+                <g id="矩形" mask="url(#mask-2)">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-13)" xlink:href="#path-12"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-12"></use>
+                </g>
+                <text id="查询历史记录" mask="url(#mask-2)" font-family="PingFangSC-Regular, PingFang SC" font-size="28" font-weight="normal" fill="#1C9CDF">
+                    <tspan x="47" y="162">查询历史记录</tspan>
+                </text>
+                <text mask="url(#mask-2)" font-family="PingFangSC-Medium, PingFang SC" font-size="32" font-weight="400" fill="#074451">
+                    <tspan x="32" y="76">最近报警</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

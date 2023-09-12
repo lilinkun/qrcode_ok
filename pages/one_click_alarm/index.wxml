@@ -1,0 +1,26 @@
+<!--pages/one_click_alarm/index.wxml-->
+<view>
+
+
+    <map class="map" id="map" longitude="{{longitude}}" latitude="{{latitude}}" scale="14" show-location="true" markers="{{markers}}" bindmarkertap="makertap"></map>
+
+
+<view class="getTel" wx:if="{{telNumber.length == 0}}">
+        <button class="inputBtn" open-type="getPhoneNumber" type="primary" bindgetphonenumber="getPhoneNumber">授权手机号</button>
+</view>
+
+<view class="alarm_bottom" wx:else>
+    
+    <view class="tel_view">
+    <text style="color: #666666;font-size:28rpx;margin-right: 5rpx;">授权手机号：</text>
+    {{telNumber}}
+    </view>
+
+    <view class="again_upload" bind:tap="alarm_click">一键报警</view>
+
+    <text class="alarm_record">报警记录 ></text>
+    
+
+</view>
+
+</view>

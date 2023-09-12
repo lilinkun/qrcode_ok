@@ -1,0 +1,59 @@
+/* pages/recent_alarm/index.wxss */
+.history_item{
+    background: #FFFFFF;
+    box-shadow: 0rpx 0rpx 16rpx 0rpx rgba(228,235,249,0.5);
+    border-radius: 20rpx;
+    position: relative;
+    padding: 10rpx;
+    width: calc(94% - 20px);
+}
+
+ .tag{
+    /* background-color: red; */
+    color: #fff;
+    padding: 4px 6px;
+    position: absolute;
+    top:0px;
+    right: 20px;
+    font-size: 24rpx;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+ .tag-red{
+    background: linear-gradient(rgb(255,148,131), rgb(255,82,55)); 
+    background: -webkit-linear-gradient(rgb(255,148,131), rgb(255,82,55));
+    background: -o-linear-gradient(rgb(255,148,131), rgb(255,82,55));
+    background: -moz-linear-gradient(rgb(255,148,131), rgb(255,82,55));
+    background: linear-gradient(rgb(255,148,131), rgb(255,82,55));
+}
+.tag-yellow{
+    background: linear-gradient(rgb(255,219,100), rgb(255,181,52)); 
+    background: -webkit-linear-gradient(rgb(255,219,100), rgb(255,181,52)); 
+    background: -o-linear-gradient(rgb(255,219,100), rgb(255,181,52)); 
+    background: -moz-linear-gradient(rgb(255,219,100), rgb(255,181,52)); 
+    background: linear-gradient(rgb(255,219,100), rgb(255,181,52)); 
+}
+.tag-green{
+    background: linear-gradient(rgb(118,238,189), rgb(82,203,142)); 
+    background: -webkit-linear-gradient(rgb(118,238,189), rgb(82,203,142)); 
+    background: -o-linear-gradient(rgb(118,238,189), rgb(82,203,142)); 
+    background: -moz-linear-gradient(rgb(118,238,189), rgb(82,203,142)); 
+    background: linear-gradient(rgb(118,238,189), rgb(82,203,142)); 
+}
+
+.title{
+    font-weight: 900;
+}
+.title{
+    color:#333333
+}
+
+.content{
+    color: #666666;
+    margin-bottom: 10px;
+}
+
+.content-item{
+    color:#999999;
+    margin-left: 5px;
+}

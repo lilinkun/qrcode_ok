@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="330px" height="220px" viewBox="0 0 330 220" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>救援电话</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="330" height="220" rx="20"></rect>
+        <linearGradient x1="9.2807706e-15%" y1="50%" x2="46.7694437%" y2="94.3060043%" id="linearGradient-3">
+            <stop stop-color="#FEEDD1" offset="0%"></stop>
+            <stop stop-color="#FFF5E4" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="19.5654618%" y1="8.13307665%" x2="29.4586748%" y2="100%" id="linearGradient-4">
+            <stop stop-color="#FFC665" offset="0%"></stop>
+            <stop stop-color="#FFE59F" offset="100%"></stop>
+        </linearGradient>
+        <filter x="0.0%" y="0.0%" width="100.0%" height="100.0%" filterUnits="objectBoundingBox" id="filter-5">
+            <feGaussianBlur stdDeviation="0" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <linearGradient x1="19.5654618%" y1="8.13307665%" x2="29.4586748%" y2="100%" id="linearGradient-6">
+            <stop stop-color="#FFDA9B" offset="0%"></stop>
+            <stop stop-color="#FFE9B0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="55.7491062%" id="linearGradient-7">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#FFC96B" offset="100%"></stop>
+        </linearGradient>
+        <filter x="-0.4%" y="-0.4%" width="100.8%" height="100.8%" filterUnits="objectBoundingBox" id="filter-8">
+            <feGaussianBlur stdDeviation="0" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-9">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#FFF2DC" offset="100%"></stop>
+        </linearGradient>
+        <path d="M248.508274,139.725962 C250.324443,139.725962 250.869294,140.089424 253.230315,144.087501 C257.225888,149.539425 257.407505,151.901926 257.225888,153.174041 C256.862654,155.718273 255.228101,156.445196 253.593549,157.899042 C253.540821,157.975252 253.486771,158.052785 253.431855,158.131807 L253.321004,158.291884 C251.682234,160.670222 249.560871,164.423764 258.497206,173.709622 C271.39201,186.249048 275.024349,180.615393 275.387583,180.0702 C278.111837,176.253853 278.656688,175.890392 280.472857,175.52693 C282.470644,175.345199 283.197112,175.708661 288.464003,179.161546 C293.730895,182.614431 294.63898,183.886547 294.275746,185.885586 C294.094129,188.793279 291.914725,193.154818 289.190471,195.153857 C282.833878,199.697127 264.490566,196.244242 250.324443,180.433662 C238.424901,167.000121 237.03357,156.900541 237.000617,152.073747 L237.00045,151.73797 C237.004874,150.975535 237.04098,150.360849 237.066406,149.902887 C237.42964,147.176925 238.156108,144.996155 241.061979,142.997117 C243.96785,140.634616 246.692104,139.725962 248.508274,139.725962 Z M266.488352,153.900965 C273.934647,153.900965 280.109623,160.079812 280.109623,167.530775 C280.109623,168.62116 279.383156,169.348083 278.293454,169.348083 C277.203752,169.348083 276.477284,168.62116 276.477284,167.530775 C276.477284,162.078851 271.936861,157.535581 266.488352,157.535581 C265.580267,157.535581 264.672183,156.808658 264.672183,155.718273 C264.672183,154.627888 265.39865,153.900965 266.488352,153.900965 Z M266.488352,137 C283.378729,137 297,150.62981 297,167.530775 C297,168.62116 296.273532,169.348083 295.183831,169.348083 C294.094129,169.348083 293.367661,168.62116 293.367661,167.530775 C293.367661,152.628849 281.199325,140.634616 266.488352,140.634616 C265.39865,140.634616 264.672183,139.907693 264.672183,138.817308 C264.672183,137.726923 265.39865,137 266.488352,137 Z M266.488352,145.904809 C278.293454,145.904809 287.919152,155.536542 287.919152,167.349044 C287.919152,168.439429 287.192685,169.166352 286.102983,169.166352 C285.013281,169.166352 284.286813,168.439429 284.286813,167.349044 C284.286813,157.535581 276.295667,149.539425 266.488352,149.539425 C265.580267,149.539425 264.672183,148.812502 264.672183,147.722117 C264.672183,146.631733 265.39865,145.904809 266.488352,145.904809 Z" id="path-10"></path>
+        <filter x="-50.0%" y="-50.0%" width="200.0%" height="200.0%" filterUnits="objectBoundingBox" id="filter-11">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="10" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.988054801   0 0 0 0 0.734966519   0 0 0 0 0.249310626  0 0 0 0.800152972 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-12" x="32" y="126" width="140" height="52" rx="10"></rect>
+        <filter x="-7.1%" y="-15.4%" width="114.3%" height="138.5%" filterUnits="objectBoundingBox" id="filter-13">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 0.910863626   0 0 0 0 0.73664253  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="一键报警-5报警成功页" transform="translate(-32.000000, -1372.000000)">
+            <g id="救援电话" transform="translate(32.000000, 1372.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="矩形" fill="#FFF5E4" xlink:href="#path-1"></use>
+                <circle id="椭圆形" fill="url(#linearGradient-3)" mask="url(#mask-2)" cx="280" cy="30" r="140"></circle>
+                <circle id="椭圆形" fill="url(#linearGradient-4)" fill-rule="nonzero" filter="url(#filter-5)" mask="url(#mask-2)" cx="292" cy="156" r="70"></circle>
+                <circle id="椭圆形" stroke="url(#linearGradient-7)" stroke-width="1.08333333" fill-opacity="0.6" fill="url(#linearGradient-6)" fill-rule="nonzero" filter="url(#filter-8)" mask="url(#mask-2)" cx="272" cy="172" r="70"></circle>
+                <g id="形状结合" fill-rule="nonzero" mask="url(#mask-2)">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-11)" xlink:href="#path-10"></use>
+                    <use fill="url(#linearGradient-9)" xlink:href="#path-10"></use>
+                </g>
+                <g id="矩形" mask="url(#mask-2)">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-13)" xlink:href="#path-12"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-12"></use>
+                </g>
+                <text id="拨打电话" mask="url(#mask-2)" font-family="PingFangSC-Regular, PingFang SC" font-size="28" font-weight="normal" fill="#DF8F07">
+                    <tspan x="46" y="162">拨打电话</tspan>
+                </text>
+                <text id="救援电话-12122" mask="url(#mask-2)" font-family="PingFangSC-Medium, PingFang SC" font-size="32" font-weight="400" fill="#624005">
+                    <tspan x="32" y="76">救援电话 12122</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

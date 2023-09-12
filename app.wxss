@@ -1,0 +1,86 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
+
+
+.stand_line{
+    width: 10rpx;
+    height: 24rpx;
+    background: linear-gradient(180deg, #299DFF 0%, #1264FF 100%);
+    box-shadow: 2rpx 2rpx 8rpx 0rpx rgba(18,100,255,0.5);
+    border-radius: 5rpx;
+    left: 32rpx;
+    display: flex;
+    position: relative;
+  }
+  .primary_title{
+      margin-left: 20px;
+      font-size: 32rpx;
+      font-weight: 500;
+      color: #171717;
+      line-height: 45rpx;
+  }
+
+  .stateChoose {
+    background: rgba(18,100,255,0.1);
+    border-radius: 32rpx;
+    border: 1rpx solid #1264FF;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex:1;
+    padding: 12rpx;
+    color: #1264FF;
+    font-size: 26rpx;
+    margin-left: 15rpx;
+    margin-right: 15rpx;
+  }
+   
+  .stateNotChoose {
+    background: #F5F6F7;
+    border-radius: 32rpx;
+    border: 1rpx solid #F5F6F7;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 26rpx;
+    flex:1;
+    padding: 12rpx;
+    color: #333333;
+    margin-left: 15rpx;
+    margin-right: 15rpx;
+  }
+
+  .inputBtn {
+    background: linear-gradient(131deg, #1264FF 0%, #299DFF 100%);
+    box-shadow: 0rpx 4rpx 20rpx 0rpx rgba(18,100,255,0.4);
+    border-radius: 20rpx;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex:1;
+    padding: 12rpx;
+    color: #ffffff;
+    font-size: 34rpx;
+    margin-left: 15rpx;
+    margin-right: 15rpx;
+    margin-top: 50rpx;
+  }
+
+  
+.again_upload{
+    background: linear-gradient(131deg, #CE1C1C 0%, #ED3737 100%);
+    box-shadow: 0rpx 4rpx 20rpx 0rpx rgba(223,22,22,0.4);
+    border-radius: 20rpx;
+    padding: 22rpx;
+    margin-right: 32rpx;
+    margin-left: 13rpx;
+    color: #fff;
+}

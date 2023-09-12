@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "@vant/weapp": "^1.10.25"
+  },
+  "name": "qrcode_ok",
+  "version": "1.0.0",
+  "description": "码上ok",
+  "main": ".eslintrc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lilinkun/qrcode_ok.git"
+  },
+  "keywords": [
+    "Lg19900202=="
+  ],
+  "author": "liguo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lilinkun/qrcode_ok/issues"
+  },
+  "homepage": "https://github.com/lilinkun/qrcode_ok#readme"
+}

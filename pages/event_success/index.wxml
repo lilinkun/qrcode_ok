@@ -1,0 +1,52 @@
+<!--pages/event_success/index.wxml-->
+<view>
+
+ <view style="height: 180rpx;width:100%;background: white;display: flex;align-items: center;justify-content: center;">
+  
+  <view style="position: absolute; top: 55px; width: 100%;">
+
+  <view style="flex-direction: row; display: flex;justify-content: center;align-items: center;">
+
+  <view bindtap="backtab" style="display: flex;flex-direction: column;height: 88rpx;">
+    <van-icon name="arrow-left" color="#333333" size="40rpx" style="margin-left: 20rpx;"></van-icon>
+  </view>
+    <view  class="page_title" style="display: flex;flex: 1;justify-content: center;margin-right: 40rpx;height: 88rpx;">
+        一键报警
+    </view>
+  </view>  
+  </view>
+
+</view>
+
+<view class="event_success">
+
+    <image src="../../static/event/ic_event_success.webp" style="width: 120rpx;height: 120rpx;"></image>
+
+    <text class="event_success_tip">报警成功，马上联系您！</text>
+    <text class="event_tip">车靠边  人撤离  放警示</text>
+
+    <view class="tip_text"><image src='../../static/event/ic_tip.webp' style="width: 28rpx;height: 28rpx;"></image><text style="margin-left: 6rpx;">请保持手机畅通，等待来电</text></view>
+
+    <view class="tip_text1"><image src='../../static/event/ic_tip.webp' style="width: 28rpx;height: 28rpx;"></image><text style="margin-left: 6rpx;">可关闭页面，请勿重复报警</text></view>
+
+
+    
+    <view class="operation">
+                <view class="exit_event">取消报警</view>
+                <view class="again_upload" bind:tap="again">重新上报</view>
+    </view>
+
+    <view style="color: #666666;margin-top: 140rpx;font-size: 28rpx;">授权手机号：<text style="color: #333333;">18829390099</text></view>
+
+    <view style="color: #666666;margin-top: 24rpx;font-size: 28rpx;">事故地点：<text style="color: #333333;">长沙绕城高速西南段上行K168+820</text></view>
+
+    <view class="tel_container">
+    <image src='../../static/event/ic_rescue_tel.svg' style="flex:1;height: 220rpx;width: 320rpx;margin: 20rpx;" bind:tap="freeTell"></image>
+    <image src='../../static/event/ic_recent_call.svg' style="flex:1;height: 220rpx;width: 320rpx;margin: 20rpx;"
+    bind:tap="recentAlarm"></image>
+    </view>
+
+</view>
+
+
+</view>

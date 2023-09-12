@@ -1,0 +1,64 @@
+<!--pages/event_detail/index.wxml-->
+<view class="box">
+    <view style="display: flex;flex-direction: row;justify-items: center;align-items: center;padding: 15px 0px;background-color: #f5f7f9;">
+        <view class="stand_line"></view>
+        <text class="primary_title">报警信息</text>
+    </view>
+
+    <view class="event" bindtap="onDisplayStatus">
+    <text><text style="color: #e90101;">*</text><text style="color: #666666;">事件类型</text></text>
+
+
+    <view style="display: flex;flex-direction: row;margin-top: 24rpx;">
+        <view class="{{type==1?'stateChoose':'stateNotChoose'}}" bindtap="choose_type" data-type="1">交通事故（无人员伤亡）</view>
+        <view class="{{type==2?'stateChoose':'stateNotChoose'}}" bindtap="choose_type"
+        data-type="2">交通事故（有人员伤亡）</view>
+    </view>
+
+    <view style="display: flex;flex-direction: row;margin-top: 24rpx;">
+        <view class="{{type==3?'stateChoose':'stateNotChoose'}}" bindtap="choose_type" data-type="3">车辆故障</view>
+        <view class="{{type==4?'stateChoose':'stateNotChoose'}}" bindtap="choose_type"
+        data-type="4">其它</view>
+    </view>
+
+    <view class="line"></view>
+
+    <view class="inputBox">
+            <text style="color: #666666;">事件描述</text>
+            <textarea maxlength="200" placeholder="请输入" value="{{content}}" bindinput='getInputValue'></textarea>
+            <text class="statistic">{{content.length}}/200</text>
+    </view>
+
+
+    <view class="photo">
+            <text style="color: #666666;">现场照片</text>
+
+            <text class="tip">注：拍照时请注意自身安全</text>
+
+<view style="display: flex;flex-direction: row;">
+    <view wx:for="{{source}}" >
+            <image class="photo_img" src="{{item}}" style="width:210rpx;height:210rpx;" bind:tap="uploadimg" data-value="{{item}}"></image>
+    </view>
+</view>
+    </view>
+
+    <view class="tel-container">
+            <text style="color: #666666;font-weight: 600;flex: 1;">您的电话</text>
+            <text style="color: #333333;">{{telNumber}}</text>
+            
+    </view>
+
+    <view class="tel-container">
+            <text style="color: #666666;font-weight: 600;flex: 1;">事故地点</text>
+            <text style="color: #333333;">{{eventInfo.address}}{{eventInfo.direction}}{{eventInfo.pileNumber}}</text>
+    </view>
+
+
+    <view class="inputBtn" bind:tap="submit">提交</view>
+
+
+
+    </view>
+    
+
+</view>
